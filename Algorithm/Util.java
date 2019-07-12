@@ -256,5 +256,20 @@ public final class Util {
 	System.out.println(str);	
 	}
 	
-	
+	static void bubbleSort(ArrayList<Integer> list) {
+		for(int i=0;i<list.size()-1;i++) {
+			boolean swap=false;
+			for(int j=0;j<list.size()-1-i;j++) {
+				if(list.get(j)>list.get(j+1)) {
+					Integer temp=list.get(j);
+					list.set(j, list.get(j+1));
+					list.set(j+1, temp);
+					swap=true;
+				}
+			}
+			if(swap==false)
+				break;
+		}
+		System.out.println(list);
+	}
 }
