@@ -1,11 +1,11 @@
 package com.bridgelabz.jsoninventory.main;
 
-import com.bridgelabz.jsoninventory.implementation.Implementation;
+import com.bridgelabz.jsoninventory.implementation.InventoryService;
 
 public class InventoryMain {
 
 	public static void main(String[] args) {
-		Implementation imp=new Implementation();
+		InventoryService imp=new InventoryService();
 		imp.readFile();
 	}
 

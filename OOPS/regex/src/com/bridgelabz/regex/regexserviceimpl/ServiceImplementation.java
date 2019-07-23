@@ -8,16 +8,9 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import com.bridgelabz.regex.regexmodel.UserDetails;
-import com.bridgelabz.regex.regexservice.ServiceUtil;
+import com.bridgelabz.regex.regexservice.Service;
 
-public class ServiceImplementation implements ServiceUtil {
-
-	BufferedReader br;
-
-	@Override
-	public void printDate(String date) {
-
-	}
+public class ServiceImplementation implements Service {
 
 	@Override
 	public String getFormattedDate() {
@@ -28,12 +21,6 @@ public class ServiceImplementation implements ServiceUtil {
 
 	@Override
 	public String replace(UserDetails user, String message) {
-		/*
-		 * message = message.replace("<<name>>", user.getFirstName()); message =
-		 * message.replace("<<full name>>", user.getFirstName()+" "+user.getLastName());
-		 * message = message.replace("xxxxxxxxxx", user.getMobileNum()); message =
-		 * message.replace("01/01/2016", user.getDate());
-		 */
 		Pattern p = Pattern.compile("<<name>>");
 		Matcher m = p.matcher(message);
 		message = m.replaceAll(user.getFirstName());

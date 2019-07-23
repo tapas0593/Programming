@@ -1,0 +1,42 @@
+[
+  {
+    "firstName": "Tapas",
+    "lastName": "Patra",
+    "houseNumber": "54",
+    "street": "1st Cross",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "pincode": 546251,
+    "phoneNum": 7978675991
+  },
+  {
+    "firstName": "Tapan",
+    "lastName": "Patra",
+    "houseNumber": "44A",
+    "street": "3rd Cross",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "pincode": 546252,
+    "phoneNum": 9939452259
+  },
+  {
+    "firstName": "Kalpana",
+    "lastName": "Patra",
+    "houseNumber": "46A",
+    "street": "7rd Cross",
+    "city": "Bangalore",
+    "state": "Karnataka",
+    "pincode": 546270,
+    "phoneNum": 8310052165
+  },
+  {
+    "firstName": "Aastha",
+    "lastName": "Shree",
+    "houseNumber": "54",
+    "street": "LIC",
+    "city": "Patna",
+    "state": "Bihar",
+    "pincode": 800020,
+    "phoneNum": 1234567890
+  }
+]
