@@ -1,0 +1,22 @@
+[
+	{
+		"stockName": "Honda",
+		"noOfShares": 20,
+		"price": 2000.52
+	},
+	{
+		"stockName": "Bajaj",
+		"noOfShares": 20,
+		"price": 2551.65
+	},
+	{
+		"stockName": "Indigo",
+		"noOfShares": 10,
+		"price": 6501.15
+	},
+	{
+		"stockName": "Amazon.com",
+		"noOfShares": 12,
+		"price": 1504.44
+	}
+]
