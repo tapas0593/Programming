@@ -11,5 +11,5 @@ public class StockDetails {
 	private String stockName;
 	private int noOfShares;
 	private double price;
-	
+
 }

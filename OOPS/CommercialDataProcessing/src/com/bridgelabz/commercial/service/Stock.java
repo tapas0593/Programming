@@ -9,5 +9,5 @@ public interface Stock {
 
 	public void printReport();
 
-	public void save(String fileName);
+	public void save(String FILENAME);
 }

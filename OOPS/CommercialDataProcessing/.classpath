@@ -4,7 +4,7 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="lib" path="/home/admin237/Downloads/gson-2.3.1.jar"/>
 	<classpathentry kind="lib" path="/home/admin237/Downloads/json-simple-1.1.jar"/>
-	<classpathentry combineaccessrules="false" kind="src" path="/DataStructure"/>
 	<classpathentry kind="lib" path="/home/admin237/Downloads/lombok-1.18.8.jar"/>
+	<classpathentry kind="lib" path="/home/admin237/Desktop/LinkedList.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
