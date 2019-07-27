@@ -1,0 +1,30 @@
+[
+	{
+		"doctorName": "Dr.Tania Karak",
+		"doctorID": 24567,
+		"specialization": "Eye Specialist",
+		"date": "2019-07-19",
+		"apointment": [
+			{
+				"patientName": "Rahul",
+				"patientID": 1001,
+				"mobNo": 7894589214,
+				"age": 23
+			}
+		]
+	},
+	{
+		"doctorName": "Dr.Kabir Singh",
+		"doctorID": 43568,
+		"specialization": "Surgeon",
+		"date": "2019-07-19",
+		"apointment": [
+			{
+				"patientName": "Priya",
+				"patientID": 1002,
+				"mobNo": 9848927150,
+				"age": 16
+			}
+		]
+	}
+]

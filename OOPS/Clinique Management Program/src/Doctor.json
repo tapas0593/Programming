@@ -1,0 +1,14 @@
+[
+	{
+		"name": "Dr.Tania_Karak",
+		"id": 24567,
+		"specialization": "Eye_Specialist",
+		"availability": "9AM-12PM"
+	},
+	{
+		"name": "Dr.Kabir_Singh",
+		"id": 43568,
+		"specialization": "Surgeon",
+		"availability": "11AM-4PM"
+	}
+]
